@@ -1,0 +1,23 @@
+# STM32CubeIDE / Eclipse 產生的編譯輸出資料夾
+Debug/
+Release/
+
+# 二進位檔與編譯暫存檔
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.su
+*.list
+
+# CubeMX 暫存檔
+.mxproject
+
+# 使用者特定的設定檔 (選擇性忽略)
+*.launch
+# Portable builds / Python
+build/
+__pycache__/
+*.pyc
